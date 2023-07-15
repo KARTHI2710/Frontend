@@ -1,0 +1,28 @@
+<!-- Application form  -->
+<html>
+<head><title>application form</title>
+<body>
+<h2>Application form</h2>
+
+<form> 
+    Name :  <input type="text" placeholder="Enter your name" pattern="[A-Za-z]{}" required><br><br>
+	Email : <input type="email" placeholder="Enter your email" required><br><br>
+	Gender : <input type="radio" name="r1">Male <input type="radio" name="r1">Female<br><br>
+    CHOOSE SKILLS<br><br>
+    HTML <input type="checkbox" required> CSS <input type="checkbox">  JS <input type="checkbox"> Bootstrap <input type="checkbox"> React <input type="checkbox"><br><br>
+	JOB TYPE <select required>
+	             <option>FRONT END DEVELOPER</option>
+		         <option>BACK END DEVELOPER</option>
+		         <option>FULL STACK DEVELOPER</option>
+		     </select><br><br>
+	choose your browser from the list : <input type="text" list="browser" required>
+	                                            <datalist id="browser">
+												    <option>chrome</option>
+													<option>internet explorder</option>
+													<option>mozila firefox</option>
+												</datalist><br><br>
+	<textarea placeholder="Give a brief summary about you" required></textarea><br><br>
+	<input type="submit">
+</form>
+</body>
+</html>
